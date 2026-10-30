@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="a">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>아침의 결 — 전시 A | 볕</title>
+  <meta name="description" content="모임 A의 영상 전시 ‘아침의 결’">
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap">
+
+  <link rel="stylesheet" href="../assets/css/base.css">
+  <link rel="stylesheet" href="../assets/css/exhibition.css">
+  <script src="../assets/js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a href="../index.html" class="btn-glass">← 전시 홈</a>
+    <button type="button" class="btn-glass video-toggle" aria-pressed="false">
+      <span class="sr-only">배경 영상 일시정지</span>
+    </button>
+  </header>
+
+  <main>
+    <!-- 인트로 -->
+    <section class="intro" aria-labelledby="intro-title">
+      <div class="bg-video" style="background-image: url(../assets/video/intro-a.jpg)">
+        <video autoplay muted loop playsinline poster="../assets/video/intro-a.jpg" aria-hidden="true">
+          <source src="../assets/video/intro-a.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="intro__inner">
+        <p class="intro__eyebrow">EXHIBITION A · 모임 A</p>
+        <h1 class="intro__title" id="intro-title">아침의 결</h1>
+        <p class="intro__lead">해가 막 떠오르는 순간, 창문과 골목과 물 위에 번지는 따뜻한 빛. 하루의 시작을 여는 빛의 결을 영상으로 기록했습니다.</p>
+        <dl class="intro__meta">
+          <div><dt>기간</dt><dd>2026.11.01 – 11.30</dd></div>
+          <div><dt>참여</dt><dd>모임 A 회원 3인</dd></div>
+        </dl>
+        <a href="#works" class="btn-glass intro__cue">작품 보기 </a>
+      </div>
+    </section>
+
+    <!-- 작품 스와이프 -->
+    <section class="gallery" id="works" aria-labelledby="works-title">
+      <div class="gallery__head">
+        <div>
+          <h2 class="gallery__title" id="works-title">작품</h2>
+          <p class="gallery__counter" aria-live="polite"><strong data-current>1</strong> / 3</p>
+        </div>
+        <div class="gallery__nav">
+          <button type="button" class="btn-glass" data-prev aria-label="이전 작품">←</button>
+          <button type="button" class="btn-glass" data-next aria-label="다음 작품">→</button>
+        </div>
+      </div>
+
+      <ol class="track" tabindex="0" aria-label="작품 목록, 좌우로 넘겨보세요">
+        <li class="card">
+          <div class="card__media">
+            <video controls playsinline preload="metadata" poster="../assets/video/work-a1.jpg">
+              <source src="../assets/video/work-a1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="card__body">
+            <p class="card__no">WORK 01</p>
+            <h3 class="card__title">창가의 06:12</h3>
+            <p class="card__meta">작가 이름 · 2026 · 4분 20초</p>
+            <details class="docent">
+              <summary>도슨트 해설</summary>
+              <div class="docent__text">
+                <p>작가는 한 달 동안 같은 창가에서 해가 뜨는 순간을 기록했습니다. 커튼 사이로 들어온 빛이 벽을 타고 내려오는 속도는 매일 조금씩 달랐습니다.</p>
+                <p>화면 왼쪽 위에서 시작한 빛이 바닥에 닿는 순간을 눈여겨 보세요. 작가는 그 순간을 “하루가 허락되는 때”라고 부릅니다.</p>
+              </div>
+            </details>
+          </div>
+        </li>
+
+        <li class="card">
+          <div class="card__media">
+            <video controls playsinline preload="metadata" poster="../assets/video/work-a2.jpg">
+              <source src="../assets/video/work-a2.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="card__body">
+            <p class="card__no">WORK 02</p>
+            <h3 class="card__title">골목의 금빛</h3>
+            <p class="card__meta">작가 이름 · 2026 · 3분 05초</p>
+            <details class="docent">
+              <summary>도슨트 해설</summary>
+              <div class="docent__text">
+                <p>오래된 골목 담벼락에 낮게 깔린 아침 햇살을 따라 걸으며 촬영했습니다. 카메라는 사람 대신 빛을 주인공으로 따라갑니다.</p>
+                <p>그림자가 길게 늘어질수록 색이 더 따뜻해지는 변화를 느껴보세요.</p>
+              </div>
+            </details>
+          </div>
+        </li>
+
+        <li class="card">
+          <div class="card__media">
+            <video controls playsinline preload="metadata" poster="../assets/video/work-a3.jpg">
+              <source src="../assets/video/work-a3.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="card__body">
+            <p class="card__no">WORK 03</p>
+            <h3 class="card__title">물 위의 첫 빛</h3>
+            <p class="card__meta">작가 이름 · 2026 · 5분 40초</p>
+            <details class="docent">
+              <summary>도슨트 해설</summary>
+              <div class="docent__text">
+                <p>새벽 호숫가에서 물안개가 걷히는 과정을 고정 카메라로 담았습니다. 빛이 물결에 부서지며 만드는 반짝임이 이 작품의 리듬이 됩니다.</p>
+                <p>소리를 켜고 감상하면 새소리와 물소리가 빛의 변화와 함께 커지는 것을 들을 수 있습니다.</p>
+              </div>
+            </details>
+          </div>
+        </li>
+      </ol>
+
+      <div class="progress" aria-hidden="true"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="../index.html">← 전시 홈</a>
+    <a href="../b/index.html">다음 전시: 잎 사이 볕 →</a>
+  </footer>
+</body>
+</html>

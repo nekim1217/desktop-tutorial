@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>볕 — 햇살 아래 두 개의 전시</title>
+  <meta name="description" content="햇빛과 자연을 주제로 한 두 모임의 작은 영상 전시">
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap">
+
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/home.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a href="index.html" class="site-header__logo">BYEOT</a>
+    <button type="button" class="btn-glass video-toggle" aria-pressed="false">
+      <span class="sr-only">배경 영상 일시정지</span>
+    </button>
+  </header>
+
+  <main class="home">
+    <div class="bg-video" style="background-image: url(assets/video/home.jpg)">
+      <video autoplay muted loop playsinline poster="assets/video/home.jpg" aria-hidden="true">
+        <source src="assets/video/home.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="home__title">
+      <p class="home__eyebrow">Sunlight Exhibition 2026</p>
+      <h1 class="home__heading">볕,<br>그 사이의 시간</h1>
+      <p class="home__lead">햇빛과 햇살, 자연을 바라본 두 모임의 작은 영상 전시입니다. 서로 다른 시선으로 담은 빛을 만나보세요.</p>
+    </div>
+
+    <nav class="entries" aria-label="전시 선택">
+      <a href="a/index.html" class="entry" data-theme="a">
+        <span class="entry__label">EXHIBITION A · 모임 A</span>
+        <strong class="entry__title">아침의 결</strong>
+        <span class="entry__desc">해가 막 떠오르는 순간, 따뜻하게 번지는 빛의 결을 따라갑니다.</span>
+        <span class="entry__more">전시 보기</span>
+      </a>
+      <a href="b/index.html" class="entry" data-theme="b">
+        <span class="entry__label">EXHIBITION B · 모임 B</span>
+        <strong class="entry__title">잎 사이 볕</strong>
+        <span class="entry__desc">나뭇잎 틈으로 쏟아지는 햇살, 숲이 만든 빛의 무늬를 기록했습니다.</span>
+        <span class="entry__more">전시 보기</span>
+      </a>
+    </nav>
+  </main>
+</body>
+</html>
