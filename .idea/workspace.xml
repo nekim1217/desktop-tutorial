@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2670f7d6-8d3a-496c-b8ee-b806cf0ecb4e" name="Changes" comment="[sunlight] 기본 세팅">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="2670f7d6-8d3a-496c-b8ee-b806cf0ecb4e" name="Changes" comment="[sunlight] 기본 세팅" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +70,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1793515043457</updated>
-      <workItem from="1793515045073" duration="2670000" />
+      <workItem from="1793515045073" duration="3150000" />
     </task>
     <task id="LOCAL-00001" summary="[sunlight] 기본 세팅">
       <option name="closed" value="true" />
@@ -84,7 +80,15 @@
       <option name="project" value="LOCAL" />
       <updated>1793516446154</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[sunlight] 기본 세팅">
+      <option name="closed" value="true" />
+      <created>1793517807676</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1793517807676</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
